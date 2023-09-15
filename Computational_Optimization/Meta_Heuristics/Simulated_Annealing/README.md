@@ -4,25 +4,25 @@ Simulated Annealing is a heuristic optimization algorithm that can be used to so
 
 Problem Description
 
-📚 Number of Courses: numCourses
-🏢 Number of Rooms: numRooms
-⏰ Number of Time Slots: numTimeslots
+1. 📚 Number of Courses: numCourses
+2. 🏢 Number of Rooms: numRooms
+3. ⏰ Number of Time Slots: numTimeslots
 
 he code uses a simulated annealing approach to iteratively improve the allocation of courses to rooms and time slots.
 
 
 Implementation Details
 
-📊 calculateCost: Function to calculate the cost of a solution, considering conflicts and room occupancy.
-🌡️ acceptanceProbability: Function to calculate the acceptance probability of a new solution based on its cost and the current temperature.
-🧩 solve: Function to solve the problem using Simulated Annealing, updating the solution iteratively.
+1. 📊 calculateCost: Function to calculate the cost of a solution, considering conflicts and room occupancy.
+2. 🌡️ acceptanceProbability: Function to calculate the acceptance probability of a new solution based on its cost and the current temperature.
+3. 🧩 solve: Function to solve the problem using Simulated Annealing, updating the solution iteratively.
 
 
 Constants
 
-🔥 INITIAL_TEMPERATURE: Initial temperature for the annealing process.
-❄️ COOLING_RATE: Cooling rate used to reduce the temperature in each iteration.
-🔁MAX_ITERATIONS: Maximum number of iterations for the annealing process.
+1. 🔥 INITIAL_TEMPERATURE: Initial temperature for the annealing process.
+2. ❄️ COOLING_RATE: Cooling rate used to reduce the temperature in each iteration.
+3. 🔁MAX_ITERATIONS: Maximum number of iterations for the annealing process.
 
 
 Usage
