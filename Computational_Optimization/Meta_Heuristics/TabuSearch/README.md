@@ -6,11 +6,8 @@ Tabu Search is a metaheuristic optimization algorithm that can be applied to sol
 Problem Description
 
 1. 🎯 Problem Size: PROBLEM_SIZE
-
 2. ⏰ Maximum Iterations: MAX_ITERATIONS
-
 3. 📋 Tabu Tenure: TABU_TENURE
-
 4. 🌌 Maximum Random Value: MAX_RANDOM_VALUE
 
 The objective function is defined to maximize a simple value calculated from a solution.
@@ -19,13 +16,9 @@ The objective function is defined to maximize a simple value calculated from a s
 Implementation Details
 
 1. 📈 objective_function: Function to calculate the objective value of a solution.
-
 2. 📇 copy_solution: Function to copy the content of one solution to another.
-
 3. 📌 update_best_solution: Function to update the best solution if a better solution is found.
-
 4. 🏁 initialize_solution: Function to initialize the initial solution with random values.
-
 5. 🔄 generate_neighbor: Function to generate a neighboring solution by swapping two random elements.
 
 
