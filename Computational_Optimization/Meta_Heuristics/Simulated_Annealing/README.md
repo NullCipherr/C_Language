@@ -1,9 +1,55 @@
-The code aims to solve a course scheduling problem by optimizing the allocation of courses to rooms and time slots based on a matrix of conflicts and room capacity constraints. The goal is to find an allocation that minimizes the total cost, taking into account the following factors:
+📅 Simulated Annealing for Course Scheduling
 
-Course-Room Conflicts: The "conflicts" matrix stores information about conflicts between courses and rooms. A higher value in a matrix position indicates a greater conflict between the course and the corresponding room.
+Simulated Annealing is a heuristic optimization algorithm that can be used to solve various combinatorial optimization problems. This C code demonstrates the application of Simulated Annealing to solve a course scheduling problem. Given a set of courses, rooms, and time slots, the goal is to find an optimal allocation of courses to rooms and time slots while minimizing conflicts and room occupancy.
 
-Room Capacities: The code checks whether the capacity of a room is exceeded when courses are assigned to it. If the capacity is exceeded, an additional cost is added.
+Problem Description
 
-Simulated Annealing: The algorithm used to optimize the allocation is "Simulated Annealing." It starts with a random initial solution and gradually adjusts this solution to minimize the total cost. This is achieved through a series of iterations where neighboring solutions are randomly generated and accepted with a certain probability, depending on the cost difference and the current temperature.
+📚 Number of Courses: numCourses
+🏢 Number of Rooms: numRooms
+⏰ Number of Time Slots: numTimeslots
 
-The ultimate goal is to find the best allocation of courses to rooms and time slots that minimizes the total cost while considering conflicts and room capacity constraints. This is valuable in scenarios such as university course scheduling, classroom timetabling, or any situation where efficient resource allocation is needed.
+he code uses a simulated annealing approach to iteratively improve the allocation of courses to rooms and time slots.
+
+
+Implementation Details
+
+📊 calculateCost: Function to calculate the cost of a solution, considering conflicts and room occupancy.
+🌡️ acceptanceProbability: Function to calculate the acceptance probability of a new solution based on its cost and the current temperature.
+🧩 solve: Function to solve the problem using Simulated Annealing, updating the solution iteratively.
+
+
+Constants
+
+🔥 INITIAL_TEMPERATURE: Initial temperature for the annealing process.
+❄️ COOLING_RATE: Cooling rate used to reduce the temperature in each iteration.
+🔁MAX_ITERATIONS: Maximum number of iterations for the annealing process.
+
+
+Usage
+
+1. Compile the code using a C compiler, such as GCC.
+
+ 							   gcc your_code_name.c -o your_executable_name
+
+	Replace your_code_name.c with the name of the source code file and your_executable_name with the desired name for the executable.
+
+
+2. Run the program.
+
+ 								./your_executable_name
+
+
+3. The program will perform simulated annealing to find an optimal course scheduling solution.
+
+
+Example Output
+
+The program will output the best solution found, including the allocation of each course to a room and time slot, as well as the cost of the best solution.
+
+
+Customization
+
+You can customize the problem instance by modifying the conflictData, numCourses, numRooms, and numTimeslots variables in the main function.
+
+
+This README provides an overview of the Simulated Annealing-based course scheduling algorithm and instructions on how to compile and run the code. You can customize the problem instance according to your needs and observe the results for different scenarios.
