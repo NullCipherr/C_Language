@@ -1,5 +1,5 @@
-<p style="font-size: 24px;"> 🧹 Insertion Sort Algorithm </p>
-----------------------------
+ 🧹 Insertion Sort Algorithm
+--------------------
 
 This C code implements the Insertion Sort algorithm to efficiently sort an array in ascending order. Insertion Sort is a straightforward sorting algorithm that builds the sorted portion of an array one element at a time. It's efficient for small datasets or nearly sorted data. This algorithm is known for its simplicity and stability but becomes inefficient for large datasets due to its quadratic time complexity. It's best suited when you have limited data or data that's already partially sorted.
 
