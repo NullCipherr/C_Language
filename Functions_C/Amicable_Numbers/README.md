@@ -1,6 +1,6 @@
 🧮 Finding Pairs of Amicable Numbers
 
-	This C code finds and displays pairs of amicable numbers in the range from 1 to N, where N is the input number. It uses the sumDivisors function to calculate the sum of proper divisors of a number and identifies pairs of amicable numbers within the specified range.
+This C code finds and displays pairs of amicable numbers in the range from 1 to N, where N is the input number. It uses the sumDivisors function to calculate the sum of proper divisors of a number and identifies pairs of amicable numbers within the specified range.
 
 🔧 How to Use
 
