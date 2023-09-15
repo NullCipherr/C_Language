@@ -50,11 +50,12 @@ Customization
 You can customize the array size and elements in the `main` function to sort different datasets.
 
 
--------------
+
 🚀 Happy Sorting!
+------
 
 This README provides an overview of the Insertion Sort algorithm applied to sorting an array, along with instructions on how to compile, run, and customize the code. Remember to replace `your_code_name.c` with the actual name of your source code file and `your_executable_name` with the desired name for the executable when compiling and running the code.
--------------
+
 
 
 
