@@ -12,7 +12,7 @@ This C code finds and displays pairs of amicable numbers in the range from 1 to 
 
 3. 🛠️ Compile the code using a C compiler. For example, if you're using GCC, execute the following command in the terminal:
 
- 							gcc your_code_name.c -o your_executable_name
+ 							   gcc your_code_name.c -o your_executable_name
 
 Replace your_code_name.c with the name of the source code file and your_executable_name with the desired name for the executable.
 
