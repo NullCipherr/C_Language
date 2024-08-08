@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Definição da estrutura Pessoa
 struct Pessoa
 {
     char nome[50];
@@ -14,6 +15,7 @@ struct Pessoa
     float peso;
 };
 
+// Função para preencher os dados da pessoa
 void preencherPessoa(struct Pessoa *p)
 {
     printf("Digite o nome: ");
@@ -26,6 +28,7 @@ void preencherPessoa(struct Pessoa *p)
     scanf("%f", &p->peso);
 }
 
+// Função para imprimir os dados da pessoa
 void imprimirPessoa(struct Pessoa *p)
 {
     printf("Nome: %s\n", p->nome);
@@ -34,12 +37,14 @@ void imprimirPessoa(struct Pessoa *p)
     printf("Peso: %.2f\n", p->peso);
 }
 
+// Função para calcular o IMC da pessoa
 void calcularIMC(struct Pessoa *p)
 {
     float imc = p->peso / (p->altura * p->altura);
     printf("IMC: %.2f\n", imc);
 }
 
+// Função para liberar a memória alocada para a estrutura Pessoa
 void liberarPessoa(struct Pessoa *p)
 {
     free(p);
