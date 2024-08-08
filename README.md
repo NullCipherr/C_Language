@@ -33,19 +33,22 @@ Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou novos p
 
 1. **Fork o Repositório**: Crie uma cópia do repositório em sua conta GitHub.
 2. **Crie uma Branch**:
+
    ```bash
    git checkout -b nome-da-sua-branch
    ```
-3. **Faça suas Alterações**: Adicione, modifique ou corrija o código conforme necessário.
-4. **Commit suas Alterações**:
+4. **Faça suas Alterações**: Adicione, modifique ou corrija o código conforme necessário.
+5. **Commit suas Alterações**:
+
    ```bash
    git commit -m "Descrição das suas alterações"
    ```
-5. **Push para o Repositório**:
+7. **Push para o Repositório**:
+
    ```bash
    git push origin nome-da-sua-branch
    ```
-6. **Abra um Pull Request**: Envie suas alterações para revisão.
+9. **Abra um Pull Request**: Envie suas alterações para revisão.
 
 ---
 
