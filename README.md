@@ -15,7 +15,7 @@ O repositório está organizado em diferentes seções, cada uma focada em um as
 ## 🛠️ Como Usar
 1. **Clone o Repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/C_Language.git
+   git clone https://github.com/NullCipherr/C_Language.git
    ```
 2. **Navegue até o Diretório**:
    ```bash
